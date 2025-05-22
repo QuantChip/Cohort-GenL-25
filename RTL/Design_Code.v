@@ -5,6 +5,8 @@ module mux2to1 (
     output wire y
 );
 
+//yesssir this kinda is working. 
+    
 assign y = sel ? b : a;
 
 endmodule
